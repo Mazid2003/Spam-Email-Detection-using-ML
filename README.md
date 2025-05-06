@@ -57,7 +57,7 @@ The main goal of this project is to help detect unwanted or malicious emails (sp
 ---
 
 ## 📁 Folder Structure
-
+```
 spam-email-detector/
 │
 ├── static/ # CSS styles
@@ -69,6 +69,7 @@ spam-email-detector/
 ├── app.py # Flask backend
 ├── requirements.txt
 └── README.md
+```
 ---
 
 ## 🚀 Getting Started
