@@ -1,6 +1,6 @@
 # 📧 Spam Email Detection using Machine Learning
 
-This is a web-based application that classifies emails as **Spam** or **Not Spam** using **Natural Language Processing (NLP)** and **Machine Learning**. The project includes a Flask-powered interface for real-time predictions.
+This is a web-based application that classifies emails as **Spam** or **Not Spam(Ham)** using **Natural Language Processing (NLP)** and **Machine Learning**. The project includes a Flask-powered interface for real-time predictions.
 
 ---
 
@@ -76,7 +76,7 @@ spam-email-detector/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/Mazid2003/Spam-Email-Detection-using-ML.git
+git clone https://github.com/Mazid2003/Spam-Email-Detection-using-Machine-Learning.git
 cd spam-email-detector
 2. Install dependencies
 
