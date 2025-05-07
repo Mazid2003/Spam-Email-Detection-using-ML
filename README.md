@@ -93,12 +93,13 @@ Clean preprocessing pipeline
 
 Real-time predictions on the web
 
+📜 License
+This project is open-source and available under the MIT License.
+
 ✨ Author
 Created by Mohammad Mazid
 Email:mazidmd750@gmail.com
 Linkedin: https://www.linkedin.com/in/mohammadmazid
 
-📜 License
-This project is open-source and available under the MIT License.
 
 
