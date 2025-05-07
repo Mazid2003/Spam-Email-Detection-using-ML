@@ -93,8 +93,8 @@ Then open your browser and go to http://localhost:5000
 **Screenshots**
 
 ![screenshot_2025-05-07_14-38-18](https://github.com/user-attachments/assets/f158f636-5451-4f4f-9bbd-949cc2877f15)
-![screenshot_2025-05-07_14-42-48](https://github.com/user-attachments/assets/7473ec23-becb-47ba-8da1-4a7dac945473)
 ![screenshot_2025-05-07_14-40-32](https://github.com/user-attachments/assets/e63837a3-04e6-4e8a-8beb-a7374aa7131c)
+![screenshot_2025-05-07_14-42-48](https://github.com/user-attachments/assets/7473ec23-becb-47ba-8da1-4a7dac945473)
 
 📊 Results
 
