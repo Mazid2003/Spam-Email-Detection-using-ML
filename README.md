@@ -77,13 +77,17 @@ spam-email-detector/
 ### 1. Clone the repository
 
 git clone https://github.com/Mazid2003/Spam-Email-Detection-using-Machine-Learning.git
+
 cd spam-email-detector
+
 2. Install dependencies
 
 pip install -r requirements.txt
+
 3. Run the Flask App
 
 python app.py
+
 Then open your browser and go to http://localhost:5000
 
 **Screenshots**
@@ -93,6 +97,7 @@ Then open your browser and go to http://localhost:5000
 ![screenshot_2025-05-07_14-40-32](https://github.com/user-attachments/assets/e63837a3-04e6-4e8a-8beb-a7374aa7131c)
 
 📊 Results
+
 Achieved over 97% accuracy using Multinomial Naive Bayes
 
 Clean preprocessing pipeline
@@ -100,11 +105,15 @@ Clean preprocessing pipeline
 Real-time predictions on the web
 
 📜 License
+
 This project is open-source and available under the MIT License.
 
 ✨ Author
+
 Created by Mohammad Mazid
+
 Email:mazidmd750@gmail.com
+
 Linkedin: https://www.linkedin.com/in/mohammadmazid
 
 
