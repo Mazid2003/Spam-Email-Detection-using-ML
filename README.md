@@ -75,7 +75,7 @@ spam-email-detector/
 ## 🚀 Getting Started
 
 ### 1. Clone the repository
-```bash
+
 git clone https://github.com/Mazid2003/Spam-Email-Detection-using-Machine-Learning.git
 cd spam-email-detector
 2. Install dependencies
