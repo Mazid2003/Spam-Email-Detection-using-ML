@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SMS Spam Classifier</title>
+    <style>
+        body {
+            background: linear-gradient(120deg, #9fa0ad, #264ae7);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: rgb(0,0,0,0.1);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+            text-align: center;
+            width: 400px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .container:hover {
+            transform: scale(1.02);
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            color: #0e0157;
+            animation: fadeInDown 0.8s ease-out;
+        }
+
+        textarea {
+            width: 80%;
+            padding: 15px;
+            font-size: 16px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            resize: none;
+            transition: border-color 0.3s;
+        }
+
+        textarea:focus {
+            border-color: #00796b;
+            outline: none;
+        }
+
+        input[type="submit"] {
+            margin-top: 20px;
+            background-color: #0011ff;
+            color: white;
+            border: none;
+            font-weight: bold;
+            padding: 12px 24px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #00054b;
+            transform: scale(1.05);
+        }
+
+        h3 {
+            margin-top: 25px;
+            color: #bae6f8;
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>📩 SMS Spam Classifier</h2>
+        <form method="POST">
+            <textarea name="message" rows="5" placeholder="Enter your SMS message..." required></textarea><br>
+            <input type="submit" value="Check">
+        </form>
+        {% if result %}
+            <h3>🧠 Result: {{ result }}</h3>
+        {% endif %}
+    </div>
+</body>
+</html>
