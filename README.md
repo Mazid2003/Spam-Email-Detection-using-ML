@@ -96,7 +96,7 @@ Then open your browser and go to http://localhost:5000
 ![screenshot_2025-05-07_14-40-32](https://github.com/user-attachments/assets/e63837a3-04e6-4e8a-8beb-a7374aa7131c)
 ![screenshot_2025-05-07_14-42-48](https://github.com/user-attachments/assets/7473ec23-becb-47ba-8da1-4a7dac945473)
 
-📊 Results
+**📊 Results**
 
 Achieved over 97% accuracy using Multinomial Naive Bayes
 
@@ -104,11 +104,17 @@ Clean preprocessing pipeline
 
 Real-time predictions on the web
 
-📜 License
+**🤝 Contributing**
+
+Contributions, suggestions, and improvements are welcome!
+
+Feel free to fork this project and submit a PR 🚀
+
+**📜 License**
 
 This project is open-source and available under the MIT License.
 
-✨ Author
+**✨ Author**
 
 Created by Mohammad Mazid
 
